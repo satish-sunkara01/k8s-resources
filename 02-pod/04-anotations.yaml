@@ -5,7 +5,7 @@ metadata:
   labels:
     course: Devops
     Trainer: "Sivakumar"
-  annotaions:
+  annotations:
     com.roboshop.training.duration: "120 hrs"
 spec:
   # list of containers
