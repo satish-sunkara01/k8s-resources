@@ -4,7 +4,7 @@ metadata:
   name: multi-container
 spec:
   containers:
-  - name: nginx
+  - name: container-1
     image: nginx
     ports:
     - containerports: 80
