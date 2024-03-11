@@ -4,10 +4,10 @@ metadata:
   name: multi-containers-1
 spec:
   containers:
-  - name: pod-1
+  - name: nginx
     image: nginx
     ports:
     - containerport: 80
-  - name: pod-2
-    image: almalinux
+  - name: almalinux
+    image: almalinux:8
     command: ["sleep", "300"]
